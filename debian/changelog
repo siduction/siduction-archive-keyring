@@ -1,0 +1,149 @@
+siduction-keyring (2011.04.30) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+ -- Ferdinand Thommes <devil@siduction.org>  Sat, 15. Oct. 2011 09:37:15 +0200
+
+   * initial fork for siduction
+   * created new archive key
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 29 Apr 2011 03:36:19 +020
+
+aptosid-keyring (2011.04.29) unstable; urgency=low
+
+  * bump standards version to 3.9.2, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 29 Apr 2011 03:35:20 +0200
+
+aptosid-keyring (2011.02.09) unstable; urgency=low
+
+  * install the keyring in APT's trusted.gpg.d directory
+    instead of adding the key to trusted.gpg file
+  * Depend on gpgv as it is enough for apt-secure and
+    recommend gnupg only to ensure a clean upgrade
+
+ -- David Kalnischkies <kalnischkies@gmail.com>  Wed, 09 Feb 2011 11:40:28 +0100
+
+aptosid-keyring (2010.10.06) unstable; urgency=low
+
+  * switch to dpkg-source 3.0 (native) format.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 06 Oct 2010 14:27:54 +0200
+
+aptosid-keyring (2010.08.30) unstable; urgency=low
+
+  * adapt for aptosid.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 30 Aug 2010 23:24:39 +0200
+
+sidux-keyring (2007.03.09) unstable; urgency=low
+
+  * Switch to dpkg-source 3.0 (native) format.
+  * bump standards version to 3.8.4, no changes necessary.
+  * drop revoking obsolete keys, this avoid having to call gpg as root and
+    thereby clobbering root's $HOME; thanks to kelmo for noticing.
+  * clarify that version two of the GPL applies.
+  * drop needles absolute refernecing to apt-key.
+  * use "set -e" in maintainerscipts, even though we effectively ignore any
+    errors in the non-templated parts.
+  * fix lintian related spelling complaints.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 04 Apr 2010 17:49:11 +0200
+
+sidux-keyring (2007.03.08) unstable; urgency=low
+
+  * make lintian happy and depend on ${misc:Depends}.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 08 Dec 2008 23:52:53 +0100
+
+sidux-keyring (2007.03.07) unstable; urgency=low
+
+  * bump standards version to 3.8.0, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Jun 2008 19:38:40 +0200
+
+sidux-keyring (2007.03.06) unstable; urgency=low
+
+  * switch to the new dh implementation of debhelper 7.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 07 May 2008 02:23:14 +0200
+
+sidux-keyring (2007.03.05) unstable; urgency=low
+
+  * appease lintian and write (C) as © in debian/copyright.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 21 Feb 2008 01:11:15 +0100
+
+sidux-keyring (2007.03.04) unstable; urgency=low
+
+  * update to debhelper compat 6.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 19 Jan 2008 02:35:53 +0100
+
+sidux-keyring (2007.03.03) unstable; urgency=low
+
+  * update to Standards-Version 3.7.3, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 03 Dec 2007 14:58:36 +0100
+
+sidux-keyring (2007.03.02) unstable; urgency=low
+
+  * add VCS control headers.
+  * update syntax for Vcs headers in debian/control
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 25 Oct 2007 19:29:01 +0200
+
+sidux-keyring (2007.03.01) unstable; urgency=low
+
+  * kanotix-keyrings, kanotix-keyring and kanotix-keyring were never part of
+    sidux or debian, don't conflict with those.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  1 Mar 2007 18:52:25 +0100
+
+sidux-keyring (2007.02.19) unstable; urgency=low
+
+  * The transition period is over, FB1A399A71409CDF revoked, 3916C431F80994F6
+    remaining.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 19 Feb 2007 16:56:57 +0100
+
+sidux-keyring (2007.02.08) unstable; urgency=low
+
+  * add new pubkeys for s.l-h@gmx.de.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  8 Feb 2007 01:11:51 +0100
+
+sidux-keyring (2006.11.30) unstable; urgency=low
+
+  [ Joaquim Boura ]
+  * fixed mispelling
+
+  [ Stefan Lippers-Hollmann ]
+  * tag and upload.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue,  5 Dec 2006 13:51:45 +0100
+
+sidux-keyring (2006.11.29) unstable; urgency=low
+
+  * initially release sidux-keyring, conflict with kanotix-keyring (it tries
+    to remove my key from the keychain).
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 29 Nov 2006 15:32:03 +0100
+
+kanotix-keyring (2006.11.25) unstable; urgency=low
+
+  * remove myself from the keyring.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 25 Nov 2006 13:50:30 +0100
+
+kanotix-keyring (2006.02.19) unstable; urgency=low
+
+  * fix lintian errors.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 19 Feb 2006 20:19:42 +0100
+
+kanotix-keyring (2006.02.06) unstable; urgency=low
+
+  * Initial release.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 13 Dec 2005 23:42:59 +0100
+

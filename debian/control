@@ -1,0 +1,24 @@
+Source: siduction-keyring
+Section: misc
+Priority: extra
+Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+ Ferdinand Thommes <devil@siduction.org>
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: gnupg
+Standards-Version: 3.9.2
+Vcs-Svn: svn://svn.berlios.de/fullstory/aptosid-keyring/trunk
+Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-keyring.git
+
+Package: siduction-archive-keyring
+Architecture: all
+Depends: ${misc:Depends},
+ apt (>= 0.7.25.1),
+ debian-archive-keyring,
+ gpgv
+Recommends: gnupg
+Description: GnuPG archive keys of the siduction archive
+ The archive project digitally signs its release files. This package contains
+ the archive keys used for that and can be used to support signature 
+ verification ("apt-secure") for:
+  - Release signature verification for siduction (Release.gpg)
+  - Packages, Sources md5sum verification against Release
