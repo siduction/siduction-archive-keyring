@@ -5,7 +5,7 @@ set -e
 
 case "$1" in
 	configure)
-		if dpkg --compare-versions '2011.04.30+nmu1' '>' "$2" && which gpg > /dev/null; then
+		if dpkg --compare-versions '2011.10.22' '>' "$2" && which gpg > /dev/null; then
 			TRUSTEDFILE='/etc/apt/trusted.gpg'
 			eval $(apt-config shell TRUSTEDFILE Apt::GPGV::TrustedKeyring)
 			eval $(apt-config shell TRUSTEDFILE Dir::Etc::Trusted/f)

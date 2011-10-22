@@ -1,0 +1,3 @@
+debian/files
+debian/siduction-archive-keyring*
+siduction-archive-keyring.gpg
