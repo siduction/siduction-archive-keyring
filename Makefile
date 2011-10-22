@@ -1,13 +1,13 @@
 #!/usr/bin/make -f
 
 all:
-	gpg --no-default-keyring --keyring ./aptosid-archive-keyring.gpg --import 0xE3BD538B.asc
-	$(RM) aptosid-archive-keyring.gpg~
+	gpg --no-default-keyring --keyring ./siduction-archive-keyring.gpg --import 45C45076.asc
+	$(RM) siduction-archive-keyring.gpg~
 
 install:
 
 clean:
-	$(RM) aptosid-archive-keyring.gpg
+	$(RM) siduction-archive-keyring.gpg
 
 check:
 

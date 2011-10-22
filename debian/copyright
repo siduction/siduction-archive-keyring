@@ -1,14 +1,16 @@
 This package was debianized by Stefan Lippers-Hollmann <s.l-h@gmx.de> on
 Tue, 13 Dec 2005 23:42:59 +0100.
 
-It was downloaded from http://aptosid.com
+Forked by Alf Gaida <agaida@siduction.org> for siduction.
 
-Copyright Holder:
+It was downloaded from http://svn.berlios.de/wsvn/fullstory/aptosid-keyring
+
+Copyright Holders:
+   Copyright © 2011 Alf Gaida <agaida@siduction.org>
    Copyright © 2007-2010 Stefan Lippers-Hollmann <s.l-h@gmx.de>
-   Copyright © 2011 Ferdinand Thommes <devil@siduction.org>
 
 License:
-   This is aptosid's GnuPG keyring of developers keys.
+   This is siduction's GnuPG keyring of developers keys.
 
    The keys in the keyrings don't fall under any copyright.  Everything
    else in the package is covered by the GNU GPL.

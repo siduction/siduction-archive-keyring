@@ -1,13 +1,15 @@
-siduction-keyring (2011.10.20); urgency=low
+siduction-keyring (2011.04.30+nmu1) UNRELEASED; urgency=low
 
-  * bumped version to 2011.10.20
+  * Non-maintainer upload.
+  * Rename to siduction-keyring
 
- -- Ferdinand Thommes <devil@siduction.org>  Sat, 15. Oct. 2011 09:37:15 +0200
+ -- Alf Gaida <info@g-com.eu>  Sat, 22 Oct 2011 12:22:16 +0200
 
-   * initial fork for siduction
-   * created new archive key
+aptosid-keyring (2011.04.30) UNRELEASED; urgency=low
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 29 Apr 2011 03:36:19 +020
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 29 Apr 2011 03:36:19 +0200
 
 aptosid-keyring (2011.04.29) unstable; urgency=low
 

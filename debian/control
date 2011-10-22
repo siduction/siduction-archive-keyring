@@ -1,13 +1,14 @@
 Source: siduction-keyring
 Section: misc
 Priority: extra
-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
- Ferdinand Thommes <devil@siduction.org>
+Maintainer: Alf Gaida <agaida@siduction.org>
+XSBC-Original-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Build-Depends: debhelper (>= 8)
 Build-Depends-Indep: gnupg
 Standards-Version: 3.9.2
-Vcs-Svn: svn://svn.berlios.de/fullstory/aptosid-keyring/trunk
-Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-keyring.git
+Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-keyring.git
+Vcs-Browser: http://git.siduction.org/?p=packages/siduction-repository/siduction-keyring.git
+Homepage: http://http://svn.berlios.de/wsvn/fullstory/aptosid-keyring
 
 Package: siduction-archive-keyring
 Architecture: all
