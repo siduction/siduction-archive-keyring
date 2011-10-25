@@ -10,7 +10,7 @@ case "$1" in
 			eval $(apt-config shell TRUSTEDFILE Apt::GPGV::TrustedKeyring)
 			eval $(apt-config shell TRUSTEDFILE Dir::Etc::Trusted/f)
 			if [ -e "$TRUSTEDFILE" ]; then
-				# apt-key --keyring "$TRUSTEDFILE" del *old_siduction_key* 2>/dev/null || :
+				apt-key --keyring "$TRUSTEDFILE" del old_siduction_key 2>/dev/null || :
 			fi
 		fi
 		;;
