@@ -1,3 +1,9 @@
+siduction-keyring (2011.10.25) unstable; urgency=low
+
+  * fixed postinst 
+
+ -- Alf Gaida <info@g-com.eu>  Tue, 25 Oct 2011 23:29:46 +0200
+
 siduction-keyring (2011.10.22) unstable; urgency=low
 
   * Non-maintainer upload.
