@@ -3,9 +3,9 @@ Section: misc
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
 XSBC-Original-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Build-Depends: debhelper (>= 8)
+Build-Depends: debhelper (>= 9)
 Build-Depends-Indep: gnupg
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-keyring.git
 Vcs-Browser: http://git.siduction.org/?p=packages/siduction-repository/siduction-keyring.git
 Homepage: http://http://svn.berlios.de/wsvn/fullstory/aptosid-keyring

@@ -1,3 +1,11 @@
+siduction-keyring (2011.03.20) unstable; urgency=low
+
+  * bumped standards to 3.9.3
+  * debhelter (>=9)
+  * refs #605 
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 20 Mar 2012 19:01:46 +0100
+
 siduction-keyring (2011.10.25) unstable; urgency=low
 
   * fixed postinst 
