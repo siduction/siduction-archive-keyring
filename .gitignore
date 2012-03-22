@@ -1,3 +1,6 @@
 debian/files
-debian/siduction-archive-keyring*
+debian/siduction-archive-keyring.debhelper.log
+debian/siduction-archive-keyring.substvars
+debian/siduction-archive-keyring/
 siduction-archive-keyring.gpg
+

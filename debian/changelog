@@ -1,3 +1,12 @@
+siduction-keyring (2011.03.23) unstable; urgency=low
+
+  * .gitignore reworked
+  * add source override to prevent lintian complaining about
+    XSBC-Original-Maintainer
+  * fixes #651
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 22 Mar 2012 22:34:21 +0100
+
 siduction-keyring (2011.03.20) unstable; urgency=low
 
   * bumped standards to 3.9.3
