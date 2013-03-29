@@ -1,3 +1,9 @@
+siduction-archive-keyring (2013.03.29) unstable; urgency=low
+
+  * new build and upload to kdenext and base
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 29 Mar 2013 17:53:42 +0100
+
 siduction-archive-keyring (2012.07.01) unstable; urgency=low
 
   * renamed to siduction-archive-keyring
